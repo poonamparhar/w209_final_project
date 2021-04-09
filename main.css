@@ -99,12 +99,13 @@ body {
 
 .altair {
     width: 95%;
+    margin: auto;
 }
 
-.altair_80 {
-    width: 80%
+.altair_center {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.altair_subcharts {
-    width: 48%;
-}

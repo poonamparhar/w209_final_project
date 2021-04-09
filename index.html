@@ -4,7 +4,7 @@
 <head>
     <title>California Traffic Collisions</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="static/main.css">
 
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega@5"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm//vega-lite@4.8.1"></script>
@@ -147,7 +147,7 @@
             to view the trend of <b>% of collisions</b> involving Alcohol, Bicycles, Motor Cycles, Pedestrians, or Trucks. For slecting multiple options, use <b>Shift+Click</b>.
         </p>
 
-        <div id="vis2" class="altair_80"></div>
+        <div id="vis2" class="altair_center"></div>
         <script>
             (function(vegaEmbed) {
                 var spec = {
@@ -352,7 +352,7 @@
                             }
                         },
                         "title": "Trend and % of Collisions for Various Types",
-                        "width": 'container'
+                        "width": 880 
                     }, {
                         "data": {
                             "url": "static/new1/altair-data-a342dd318282972628eb24ca0a0f18a4.json",
@@ -432,7 +432,7 @@
             county for the selected year. Selecting a county brings up the distribution of collisions of that county over the top 10 cities in that county. If no particular year is selected, then all charts present information for all the 10 years.
         </p>
 
-        <div id="vis3" class="altair_subcharts"></div>
+        <div id="vis3" class="altair_center"></div>
         <script>
             (function(vegaEmbed) {
                 var spec = {
@@ -608,8 +608,8 @@
                                         "type": "json"
                                     }
                                 },
-                                "height": 230,
-                                "width": 'container'
+                                "height": 225,
+                                "width": 620
                             }, {
                                 "data": {
                                     "url": "static/new1/altair-data-b56ecd854c43de4390fbb25b498a4b25.json",
@@ -657,7 +657,7 @@
                                         "title": "Number of Collisions"
                                     }
                                 },
-                                "height": 230,
+                                "height": 225,
                                 "selection": {
                                     "selector001": {
                                         "type": "single",
@@ -725,7 +725,7 @@
                                         "title": "County ID"
                                     }]
                                 },
-                                "height": 230,
+                                "height": 225,
                                 "projection": {
                                     "type": "albers"
                                 },
@@ -55268,7 +55268,7 @@
                                         "fields": ["cnty_name"]
                                     }
                                 }],
-                                "width": 'container'
+                                "width": 580
                             }, {
                                 "data": {
                                     "url": "static/new1/altair-data-759962c1745efde52f8518be9133ea8c.json",
@@ -55314,7 +55314,7 @@
                                         "title": "Number of Collisions"
                                     }
                                 },
-                                "height": 230,
+                                "height": 225,
                                 "selection": {
                                     "selector003": {
                                         "type": "single",
